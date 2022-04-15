@@ -3,7 +3,6 @@ import './App.css';
 //Importing bootstrap and other modules
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { Navbar } from 'react-bootstrap'
 
 
 import {
@@ -12,6 +11,7 @@ import {
     Route,
 } from "react-router-dom";
 
+import Login from './components/login';
 import Signup from './components/signup';
 import ForgetPassword from './components/forget_password';
 import ResetPassword from './components/reset_password'
@@ -33,7 +33,7 @@ function App() {
         <Route path = "/forget-password/" element = {
             <ForgetPassword />
         } />
-        
+
         <Route path = "/reset-password/:id" element = {
             <ResetPassword />
         } />
