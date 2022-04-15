@@ -1,5 +1,5 @@
 var configs = {
-    api_url : "http://localhost:5000"
+    api_url : "https://forget-password-test.herokuapp.com/"
 }
 
 export default configs
